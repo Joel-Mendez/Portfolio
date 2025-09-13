@@ -7,7 +7,7 @@ body {
     margin: 0; 
     font-family: sans-serif; 
     color: white;
-    background:  linear-gradient(180deg, #6e8efb, #a777e3);/* #5a61ac; */
+    background:  linear-gradient(to bottom, #6e8efb, #a777e3);/* #5a61ac; */
 }
 
 h1 {
