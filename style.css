@@ -30,7 +30,8 @@ body {
 #about {
     background: #fff;      
     color: #333;           
-    padding: 4rem 8rem;     
+    padding: 4rem 8rem; 
+    font-family: sans-serif;    
 }
 
 .about-content {
@@ -49,6 +50,65 @@ body {
     line-height: 1.6;
 }
 
+/* Timeline Section */
+#timeline {
+    padding: 4rem 1rem;
+    background: #fafafa;
+    color: #333;
+    font-family: sans-serif;
+}
+
+#timeline h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+/* Timeline container */
+.timeline-content {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    border-left: 3px solid #6e8efb; /* the vertical line */
+    padding-left: 2rem;
+}
+
+.timeline-item {
+    margin-bottom: 2rem;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.timeline-item:last-child {
+    border-bottom: none;          /* don’t draw line after last item */
+  }
+
+.timeline-date {
+    font-weight: bold;
+    color: #6e8efb;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.timeline-role {
+    background: none; 
+}
+
+.timeline-role h2 {
+    font-size: 1.1rem;
+}
+
+.timeline-role ul {
+    margin: 0.5rem 0 0 1.25rem;  /* space + indentation */
+    padding: 0;
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+  
+.timeline-role li {
+    margin-bottom: 0.5rem;
+}
 /* Footer Styling */
 footer {
     background: #111; /* dark background */
